@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Playlist Duration",
+    "version": "1.0",
+    "description": "Calculates the total duration of videos in a YouTube playlist.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
